@@ -1,6 +1,18 @@
 {
-  "name": "milkdown-plugin-placeholder",
-  "version": "0.1.1",
+  "name": "plugin-placeholder",
+  "version": "0.1.0",
+  "description": "Placeholder plugin for milkdown.",
+  "keywords": [
+    "milkdown",
+    "milkdown plugin",
+    "placeholder"
+  ],
+  "author": "jiannei",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jiannei/milkdown-plugin-placeholder"
+  },
+  "license": "MIT",
   "type": "module",
   "main": "lib/index.js",
   "scripts": {
@@ -11,13 +23,6 @@
     "lint": "eslint ./src",
     "lint:fix": "eslint ./src --fix"
   },
-  "keywords": [
-    "milkdown",
-    "milkdown plugin",
-    "placeholder"
-  ],
-  "author": "jiannei",
-  "license": "MIT",
   "devDependencies": {
     "@antfu/eslint-config": "^2.6.2",
     "eslint": "^8.56.0",
