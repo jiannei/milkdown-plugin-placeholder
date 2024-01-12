@@ -5,7 +5,7 @@ import type { MilkdownPlugin } from '@milkdown/ctx'
 
 import { InitReady, prosePluginsCtx } from '@milkdown/core'
 
-const placeholderCtx = createSlice('Please input here...', 'placeholder')
+export const placeholderCtx = createSlice('Please input here...', 'placeholder')
 const PlaceholderReady = createTimer('PlaceholderReady')
 
 const pluginKey = new PluginKey('MILKDOWN_PLACEHOLDER')
