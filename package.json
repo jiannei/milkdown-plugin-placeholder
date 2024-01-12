@@ -1,6 +1,6 @@
 {
   "name": "milkdown-plugin-placeholder",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "type": "module",
   "main": "lib/index.js",
   "scripts": {
@@ -11,6 +11,13 @@
     "lint": "eslint ./src",
     "lint:fix": "eslint ./src --fix"
   },
+  "keywords": [
+    "milkdown",
+    "milkdown plugin",
+    "placeholder"
+  ],
+  "author": "jiannei",
+  "license": "MIT",
   "devDependencies": {
     "@antfu/eslint-config": "^2.6.2",
     "eslint": "^8.56.0",
@@ -18,6 +25,8 @@
     "vite": "^5.0.11"
   },
   "dependencies": {
-    "@milkdown/ctx": "^7.3.3"
+    "@milkdown/core": "^7.3.3",
+    "@milkdown/ctx": "^7.3.3",
+    "@milkdown/prose": "^7.3.3"
   }
 }
