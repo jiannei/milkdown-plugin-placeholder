@@ -2,9 +2,11 @@
   "name": "milkdown-plugin-placeholder",
   "version": "0.0.0",
   "type": "module",
+  "main": "./src/index.ts",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "tsc --emitDeclarationOnly && vite build",
+    "tsc": "tsc --noEmit && echo",
     "preview": "vite preview",
     "lint": "eslint ./src",
     "lint:fix": "eslint ./src --fix"
@@ -12,8 +14,8 @@
   "devDependencies": {
     "@antfu/eslint-config": "^2.6.2",
     "eslint": "^8.56.0",
-    "typescript": "^5.2.2",
-    "vite": "^5.0.8"
+    "typescript": "^5.3.3",
+    "vite": "^5.0.11"
   },
   "dependencies": {
     "@milkdown/ctx": "^7.3.3"
