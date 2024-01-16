@@ -10,7 +10,7 @@
   "author": "jiannei",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jiannei/milkdown-plugin-placeholder"
+    "url": "git+https://github.com/jiannei/milkdown-plugin-placeholder.git"
   },
   "license": "MIT",
   "type": "module",
