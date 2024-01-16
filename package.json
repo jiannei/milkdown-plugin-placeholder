@@ -30,8 +30,6 @@
     "vite": "^5.0.11"
   },
   "dependencies": {
-    "@milkdown/core": "^7.3.3",
-    "@milkdown/ctx": "^7.3.3",
-    "@milkdown/prose": "^7.3.3"
+    "@milkdown/utils": "^7.3.3"
   }
 }
