@@ -1,11 +1,11 @@
 import { Plugin, PluginKey } from '@milkdown/prose/state'
 import type { EditorView } from '@milkdown/prose/view'
 import type { Ctx, MilkdownPlugin } from '@milkdown/ctx'
-import { $ctx, $proseAsync } from '@milkdown/utils'
+import { $ctx, $prose } from '@milkdown/utils'
 
 export const placeholderConfig = $ctx('Please input here...', 'placeholderConfig')
 
-export const placeholderPlugin = $proseAsync(async (ctx: Ctx) => {
+export const placeholderPlugin = $prose((ctx: Ctx) => {
   const update = (view: EditorView) => {
     const doc = view.state.doc
     if (
